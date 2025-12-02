@@ -164,4 +164,63 @@ using namespace std;
 // }
 
 /// Problem 7
-int
+// int main() {
+//     int m, n;
+//     cin >> m >> n;
+//
+//     int **a = new int*[m];
+//     for (int i = 0; i < m; i++)
+//         a[i] = new int[n];
+//
+//     for (int i = 0; i < m; i++)
+//         for (int j = 0; j < n; j++)
+//             cin >> a[i][j];
+//
+//     int **t = new int*[n];
+//     for (int i = 0; i < n; i++)
+//         t[i] = new int[m];
+//
+//         for (int i = 0; i < m; i++)
+//         for (int j = 0; j < n; j++)
+//             t[j][i] = a[i][j];
+//
+//     cout << "Original:\n";
+//     for (int i = 0; i < m; i++) {
+//         for (int j = 0; j < n; j++)
+//             cout << a[i][j] << " ";
+//         cout << "\n";
+//     }
+//
+//     cout << "Transposed:\n";
+//     for (int i = 0; i < n; i++) {
+//         for (int j = 0; j < m; j++)
+//             cout << t[i][j] << " ";
+//         cout << "\n";
+//     }
+// }
+
+/// Problem 10
+// void removeSpaces(char* s) {
+//     char* read = s;
+//     char* write = s;
+//
+//     while (*read != '\0') {
+//         if (*read != ' ') {
+//             *write = *read;
+//             write++;
+//         }
+//         read++;
+//     }
+//
+//     *write = '\0';
+// }
+//
+// int main() {
+//     char str[100];
+//     cin.getline(str, 100);
+//
+//     removeSpaces(str);
+//
+//     cout << str;
+//     return 0;
+// }
